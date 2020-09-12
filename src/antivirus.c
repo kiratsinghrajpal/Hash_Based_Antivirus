@@ -49,7 +49,7 @@ int isFile(const char* name)
     return -1;
 }
 
-//md5 hash function
+//Example md5 hash function
 /*int CalcFileMD5(char *file_name, char *md5_sum)
 {
     #define MD5SUM_CMD_FMT "md5sum %." STR(PATH_LEN) "s 2>/dev/null"
